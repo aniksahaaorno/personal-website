@@ -1,7 +1,7 @@
 #header{
 
     background-image: url("header-bg.png");
-    height:600px;
+    height:400px;
     margin:0;
 }
 .banner{
@@ -13,7 +13,7 @@
 }
 .banner img{
 
-    width:100%;
+    width:50%;
 }
 .heighlight{
 
@@ -31,7 +31,7 @@
 #biography{
 
     background-image:url("biography-bg.png");
-    height:600px;
+    height:400px;
     margin:0;
 }
 .bio{
@@ -43,7 +43,7 @@
 }
 .bio img{
 
-    width:100%;
+    width:50%;
 }
 .cv{
 
@@ -82,16 +82,10 @@
 #footer{
 
     background-image:url("footer-bg.png");
-    background-position: left;
-    height:500px;
+    background-position:left;
+    height:400px;
     margin:0;
     
-
-}
-.headingcntr{
-
-      text-align:center;
-
 
 }
 .footerelementcolor{
@@ -114,4 +108,8 @@
     border-radius: 5px;
     color: white;
     
+}
+.email{
+
+    text-decoration: none;
 }
