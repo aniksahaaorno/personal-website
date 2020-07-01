@@ -54,6 +54,49 @@
     border: 1px solid palevioletred;
     padding: 10px 20px;
 }
+.experience{
+
+    float:left;
+    width:40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:60%;
+}
+.red{
+
+    color: red;
+}
+#left-border{
+
+     border-left: 7px solid;
+     border-image: linear-gradient(180deg,lightsalmon,tomato);
+     border-image-slice: 1;
+     
+
+}
+#left-borderagain{
+
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    
+
+}
+.experiencename{
+
+       text-align:center;
+
+}
+#myexperiences{
+
+     background-image: url("exp-bg.png");
+     background-position: left;
+     background-repeat: no-repeat;
+     height: 600px;
+}
+   
 .work{
 
     width:20%;
@@ -79,37 +122,64 @@
 
     text-align: center;
 }
-#footer{
+#clientreview{
 
     background-image:url("footer-bg.png");
     background-position:left;
-    height:400px;
+    height:500px;
     margin:0;
     
 
 }
-.footerelementcolor{
+.client-part{
 
-    color:deeppink;
+        width:25%;
+        height:350px;
+        float: left;
+        margin-left: 5%;
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 5px;
+        text-align: center;
+
+
 }
-.footer-part{
+.styleone{
+       
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,red);
+    border-image-slice: 1;
+
+}
+.styletwo{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(238, 255, 0),yellow);
+    border-image-slice: 1;
+
+}
+.stylethree{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+.client{
 
     text-align: center;
-}
-.contract{
-
-    text-align: center;
-    width:600px;
-    height:100px;
-    margin-left:350px;
-    background-image: linear-gradient(lightsalmon,palevioletred);
-    padding:20px 10px ;
-    margin-top: 50px;
-    border-radius: 5px;
-    color: white;
-    
 }
 .email{
 
     text-decoration: none;
+    background-image: linear-gradient(red,orange);
+}
+.justify{
+
+    text-align: justify;
+    padding: 5px;
+}
+.clientelementcolor{
+
+
+       color:red;
 }
